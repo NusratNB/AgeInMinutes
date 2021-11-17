@@ -7,7 +7,7 @@
     android:gravity="center_horizontal"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="@color/primaryCol"
+    android:background="@color/teal_200"
     tools:context=".MainActivity">
 
     <TextView
@@ -40,6 +40,45 @@
         android:text="IN MINUTES"
         android:textColor="@color/textColor"
         android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Date"
+        android:background="#FFFFFF"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@color/grey"
+        app:backgroundTint="#FFFFFF"
+        />
+    <TextView
+        android:id="@+id/textViewSD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35sp"
+        android:text="Selected Date"
+        android:textColor="@color/teal_700"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/textViewImmutable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:textColor="@color/teal_700"
+        android:textSize="35sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/textViewAM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:text="Age in minutes"
+        android:textColor="@color/teal_700"
+        android:textSize="18sp"
         android:textStyle="bold"/>
 
 
